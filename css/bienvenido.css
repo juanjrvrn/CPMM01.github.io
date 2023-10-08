@@ -4,7 +4,7 @@
     width: 100%;
     /* border-radius: 16px; */
     text-shadow: 2px 2px 4px black;  
-    background-image: url(/img/colegio.jpg);
+    background-image: url(img/colegio.jpg);
     background-size: cover;
     height: 600px;
     box-shadow: 0 0 20px 0 #0d0d0d;
@@ -19,7 +19,7 @@
     width: 100%;
     /* border-radius: 16px; */
     text-shadow: 2px 2px 4px black;  
-    background-image: url(/img/interior.jpg);
+    background-image: url(img/interior.jpg);
     background-size: contain;
     background-repeat: round;
     height: 450px;
