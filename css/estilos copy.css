@@ -1,0 +1,247 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;`
+}
+
+#bachillerato {
+    text-align: center;
+}
+p {
+    text-align: justify;
+}
+
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption,
+hgroup {
+    display: block;
+}
+
+body {
+    margin: 0;
+    /* padding: 0 4%; */
+}
+
+/* 
+#agrupar {
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+} */
+
+/* #cabecera {
+    background: rgb(75, 167, 197);
+    padding: 20px;
+    display: flex;
+    color: white;
+} */
+#logo{
+    height: 50px;
+    width: auto;
+    /* padding: 0 1rem 0 0; */
+}
+
+#medalla1 {
+    width: 20%;
+    height: auto;
+}
+#seccion {
+    display: block;
+    /* text-align: center; */
+    /* width: 70%; */
+    margin: 7rem auto; 
+}
+.titulop, h1{
+    font: bold 26px verdana, sans-serif;
+    margin-bottom: 20px;
+    /* font-size: 30px; */
+    text-align: center;
+}
+.titulo2p, h2{
+    font: bold 24px verdana, sans-serif;
+    /* font-size: 25px; */
+    margin-bottom: 20px;
+
+}
+h3{
+    font: bold 20px verdana, sans-serif; 
+    margin: 20px 0; 
+}
+p {
+    text-indent: 20px;
+    line-height: 40px;
+    font-size: 20px;
+}
+article ul{
+    margin-left: 40px;
+    line-height: 40px;
+    font-size: 20px;
+}
+.img{
+    max-width: 400px;
+    max-height: auto;
+}
+.imgdiv{
+    margin: 20px;
+    text-align: center;
+}
+#pie {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #999999;
+}
+.redes{
+    width: 100%;
+    margin-top: 20px;
+}
+.redes > a{
+    padding: 15px;
+    color: rgb(13, 39, 77);
+}
+.fondoazul{
+    color: #fdfdfd;
+    background-color: rgb(13, 39, 77);
+    display: flex;
+    width: 90%;
+    /* grid-template-columns: 50% 50%;
+    grid-template-rows: 48% 2% 48%; */
+    padding: 30px;
+    margin:0 auto 60px;
+    border-radius: 16px;
+    /* margin: 0 -20% */
+}
+.imgfondoazul{
+    width: 100%;
+}
+.fondoazul div{
+    
+    /* text-align: center; */
+}
+.fondoazul > article{
+    margin: auto;
+    /* padding: 0;
+    margin: 0; */
+    /* margin: 0 40px; */
+}
+.noticias1{
+    text-align: left;
+    margin: 0 0 30px;
+}
+.noticias2{
+    text-align: left;
+    margin: 0 0 10px;
+}
+article {
+    /* background: rgb(147, 206, 225); */
+    /* border: 1px solid #999999; */
+    padding: 20px;
+    margin: 7px 15% 7px;
+    /* margin-top: 5%; */
+    /* text-indent: 20px; */
+}
+
+article footer {
+    text-align: right;
+}
+
+time {
+    color: #999999;
+}
+
+figcaption {
+    font: italic 14px verdana, sans-serif;
+}
+
+#parroquia {
+    max-width: 500px;
+    max-height: auto;
+}
+/* #titulocentral {
+text-align: center;
+} */
+@media all and (max-width : 1087px) {
+    #seccion{
+        margin: 9rem auto;
+    }
+    .fondoazul{
+        display: block;
+    }
+    article {
+        /* background: rgb(147, 206, 225); */
+        /* border: 1px solid #999999; */
+        padding: 20px;
+        margin: 7px 1% 7px;
+        /* margin-top: 5%; */
+        /* text-indent: 20px; */
+    }
+    
+}
+@media all and (max-width : 768px) {
+    .fondoazul{
+        /* margin: 10px; */
+        display: block;
+        padding: 0;
+        /* margin: 0; */
+        width: 100%;
+    }
+    .fondoazul > article{
+        margin: 0;
+    }
+    .titulop, h1{
+        font: bold 22px verdana, sans-serif;
+        margin-bottom: 20px;
+        /* font-size: 30px; */
+        text-align: center;
+    }
+    .titulo2p, h2{
+        font: bold 18px verdana, sans-serif;
+        /* font-size: 25px; */
+        margin-bottom: 20px;
+    
+    }
+    h3{
+        font: bold 15px verdana, sans-serif; 
+        margin: 20px 0; 
+    }
+    p {
+        text-indent: 15px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+    #seccion {
+        display: block;
+        /* text-align: center; */
+        width: 95%;
+        /* margin: 4rem auto;  */
+    }
+    article ul{
+        margin-left: 30px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+    
+    .img{
+        max-width: 95%;
+        max-height: auto;
+    }
+    .imgdiv{
+        margin: 20px;
+        text-align: center;
+    }
+    article {
+        /* background: rgb(147, 206, 225); */
+        /* border: 1px solid #999999; */
+        padding: 20px;
+        margin: 7px 0 7px;
+        /* margin-top: 5%; */
+        /* text-indent: 20px; */
+    }
+    
+}

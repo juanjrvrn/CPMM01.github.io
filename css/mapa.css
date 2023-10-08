@@ -1,0 +1,18 @@
+#mapa{
+    margin: 0 auto;
+    background-color: aliceblue;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+#mapa h2{
+    text-align: center;
+    color: antiquewhite;
+}
+#frameMapa{
+    border-radius: 5px;
+    margin: 15px;
+}

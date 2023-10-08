@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="iso-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0;">
+    <meta name="description" content="Ejemplo de HTML5">
+    <meta name="keywords" content="HTML5, CSS3, JavaScript">
+    <title>Colegio Medalla Milagrosa</title>
+    <link rel="shortcut icon" href="/img/logo.png">
+    <!-- <link rel="stylesheet" href="css/estilos.css"> -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <!-- iconos font awesome -->
+    <script src="https://kit.fontawesome.com/a86152deea.js" crossorigin="anonymous"></script>
+    <!-- animacion css animete css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+
+<body>
+    <!-- <?php
+    include("conection.php");
+    $con=conectar();    
+    echo "se realizo la conexion";
+     ?> -->
+    <!-- <header id="cabecera">
+        <img id="logo" src="img\logo.png">
+    </header> -->
+    <nav>
+        <div id="logo">
+            <img src="img/logo.png" alt="" id="logoimg">
+            <p id="textocabecera">Colegio Parroquial Medalla Milagrosa</p>
+        </div>
+        <label for="drop" class="toggle"><i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="drop" />
+        <ul class="menu">
+            <li><a href="/index.html">Inicio</a></li>
+            <li>
+
+                <!-- First Tier Drop Down -->
+                <label for="drop-2" class="toggle">Académico +</label>
+                <a class="pointer">Académico</a>
+                <input type="checkbox" id="drop-2" />
+                <ul>
+                    <li><a href="/academico/nivelinicial.html">Nivel Inicial</a></li>
+                    <li><a href="/academico/escolarbasica.html">Escolar Básica</a></li>
+                    <li>
+
+                        <!-- Second Tier Drop Down -->
+                        <label for="drop-3" class="toggle">Bachilleratos +</label>
+                        <a class="pointer">Bachilleratos</a>
+                        <input type="checkbox" id="drop-3" />
+
+                        <ul>
+                            <li><a href="/academico/btecnico.html">Técnicos</a></li>
+                            <li><a href="/academico/bcientifico.html">Científicos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="/pastoral.html">Pastoral</a></li>
+            <li><a href="/noticias.html">Noticias</a></li>
+            <li><a href="/galeria.html">Galería</a></li>
+            <li><a href="/contactos.html">Contactos</a></li>
+        </ul>
+    </nav>
+    <div class="contenido">
+        <h1 class="principal">Contacto</h1>
+        <div class="contacto1">
+            <div class="contacto2">
+                <h3>Contáctanos</h3>
+                <form action="grabar.php" method="post">
+                    <p>
+                        <label>Nombre y Apellido</label>
+                        <input type="text" name="nombre">
+                    </p>
+                    <p>
+                        <label>Correo </label>
+                        <input type="email" name="correo">
+                    </p>
+                    <p>
+                        <label>Teléfono</label>
+                        <input type="tel" name="telefono">
+                    </p>
+                    <p>
+                        <label>Asunto</label>
+                        <input type="text" name="asunto">
+                    </p>
+                    <p class="block">
+                        <label>Mensaje</label>
+                        <textarea name="mensaje" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button type="submit" id="btncontactos">
+                            Enviar
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contacto3">
+                <h4>Más Información</h4>
+                <ul>
+                    <li><a href="https://instagram.com/cepmm2023?igshid=MzRlODBiNWFlZA=="><i
+                                class="fa-brands fa-instagram"></i> Instagram</a></li>
+                    <li><a href="https://m.facebook.com/ComunidadEducativaParroquialMedallaMilagrosa"><i
+                                class="fa-brands fa-facebook"></i> Facebook</a></li>
+                    <li><i class="fa-solid fa-phone"></i> +595 984 302 965</li>
+                    <li><i class="fa-solid fa-envelope"></i> administracion@cpmm.edu.py</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Concepción entre Mcal. José F. Estigarribia y Tomás R. Pereira</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <section id="seccion">
+        <article>
+            <header>
+                <hgroup>
+                    <h1>Contacto</h1>
+                </hgroup>
+                <time datetime="2011-12-10" pubdate>publicado 10-12-2011
+                </time> -->
+    <!-- </header>
+            <p id="contacto">
+
+                <h2>Dirección</h2>
+                direccion@cpmm.edu.py <br>
+                Mcs. Genara Velázquez de Yegros <br>
+                Directora <br>
+                <h2>Administración</h2>
+                administracion@cpmm.edu.py <br>
+                Lic. Araceli Franco <br>
+                Administradora
+                <h2>Secretaria</h2>
+                secretaria@cpmm.edu.py <br>
+                Srta. Alicia Arana <br>
+                Secretaria <br>
+                <h2>Evaluación</h2>
+                evaluacion@cpmm.edu.py <br>
+                Prof. Diana Fernández <br>
+                Evaluadora <br>
+                <h2>Soporte Técnico</h2>
+                soporte@cpmm.edu.py <br>
+                Prof. Ramón Jara <br>
+                Soporte Técnico – Informática  <br>
+
+            </p>
+        </article> -->
+    <!-- <section id="seccion">
+            <article>
+                <header>
+                    <hgroup>
+                        <h1>Rees Sociales</h1>
+                    </hgroup>
+                     <time datetime="2011-12-10" pubdate>publicado 10-12-2011
+                    </time> -->
+    <!-- </header>
+                <p id="redes sociales">
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                </p>
+            </article> -->
+    <!-- </section>  -->
+    <section>
+        <div id="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14425.996086334859!2d-57.5569034!3d-25.3210306!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945da8d5bd4ffe17%3A0xce55f7cbe0386f2f!2sColegio%20Medalla%20Milagrosa!5e0!3m2!1ses-419!2spy!4v1693596845997!5m2!1ses-419!2spy"
+                width="100%" height="400px" style="border:0; " allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    </section>
+    </section>
+    <a href="https://wa.me/595984302965?text=Me%20gustaría%20saber%20más%20información" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+
+    <footer id="pie">
+        <div class="copy">
+            Derechos Reservados &copy; Colegio Parroquial Medalla Milagrosa <br>
+            Desarrollado por <b>BTI 2023</b><br>
+            Fernando de la Mora - Paraguay
+        </div>
+        <div class="redes">
+            <a href="https://m.facebook.com/ComunidadEducativaParroquialMedallaMilagrosa" style="font-size: 20px;"><i
+                    class="fa-brands fa-facebook" style="font-size: 25px;"></i></a>
+            <a href="https://instagram.com/cepmm2023?igshid=MzRlODBiNWFlZA==" style="font-size: 20px;"><i
+                    class="fa-brands fa-instagram" style="font-size: 25px;"></i></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

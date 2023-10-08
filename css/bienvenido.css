@@ -1,0 +1,70 @@
+#artbv{
+    margin: 20px auto 50px;
+    display: flex;
+    width: 100%;
+    /* border-radius: 16px; */
+    text-shadow: 2px 2px 4px black;  
+    background-image: url(/img/colegio.jpg);
+    background-size: cover;
+    height: 600px;
+    box-shadow: 0 0 20px 0 #0d0d0d;
+
+    
+    /* width: 90%; */
+
+}
+#historia{
+    margin: 70px auto 50px;
+    display: flex;
+    width: 100%;
+    /* border-radius: 16px; */
+    text-shadow: 2px 2px 4px black;  
+    background-image: url(/img/interior.jpg);
+    background-size: contain;
+    background-repeat: round;
+    height: 450px;
+    box-shadow: 0 0 20px 0 #0d0d0d;
+
+    /* width: 90%; */
+
+}
+#bienvenido{
+    text-align: center;
+    line-height: normal;
+    text-indent: 0;
+    font-size: 45px;
+    font-weight: bold;
+    color: #fdfdfd;
+}
+.divsbv{
+    margin: auto;
+    padding: 2%;
+    width: 50%;
+    
+}
+#imgbv{
+    max-width: 90%;
+    /* min-width: 250px; */
+    border-radius: 8px;
+}
+@media all and (max-width : 768px) {
+    #bienvenido{
+        font-size: 20px;
+    }
+    #artbv{
+        height: 200px;
+        margin: -30px auto 35px;
+    }
+    #historia{
+        background-size: cover;
+        height: 200px;
+        margin-bottom: 60px;
+    }
+}
+@media all and (min-width : 769px) {
+    #historia{
+        background-size: cover;
+        /* height: 300px; */
+    }
+    
+}
